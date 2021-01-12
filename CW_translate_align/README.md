@@ -9,4 +9,5 @@
 # 
 # 4. Utilisation of a different set of sequences is possible, however this will require minor edits to the code on lines 11 & 12 to ensure the file is read in correctly. Also files must be of the .csv filetype and formatted in a similar way to the sample data set
 # 5. If running in python, the command 'run translatealign.py' will start the script. If running from the windows command line use 'python translatealign.py'.
-
+#
+# This script is best run using a python console, as this will improve usability. It is still viable to run through the windows command line
