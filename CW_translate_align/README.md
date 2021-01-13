@@ -1,9 +1,9 @@
-# This is a simple tool written in Python3 to translate and align two nucleotide sequences. Specifically used here to compare the similarity of nanobodies with the same target protein. However this could be altered to align and compare any two proteins.
+# This is a simple tool written in Python 3.8.5 to translate and align two nucleotide sequences. Specifically used here to compare the similarity of nanobodies with the same target protein. However this could be altered to align and compare any two proteins.
 #
 # To run:
 # 1. Download all scripts and the sample data set in this repository. Ensure these are in the same directory.
 # 2. Ensure the modules 'Pandas' and 'BioPython' are installed and available
-# 3. Run the translatealign.py script. At several points in this script user input will be requested; follow instructions in bold red carefully.
+# 3. Run the translatealign.py script. At several points in this script user input will be requested; follow instructions in bold red carefully, if running through the windows command line these will not appear in bold or colour.
 # 
 # The sequence will product a number of pairwise alignments generated through pairwise2. Comparison is achieved visually, '|' between amino-acid residues represents complete conservation; '.' represents conservation of chemical properties between residues. When using the example dataset, strong conservation is expected at both the N-terminus and C-terminus due to the presence of highly conserved expression and purification sequences.
 # 
