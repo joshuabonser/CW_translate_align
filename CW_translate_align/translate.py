@@ -20,7 +20,7 @@ def translate(ntseq):
     } 
         
     translation = ""
-    for i in range(0,len(ntseq),3): #To read the input sequence it needed to be broken into discrete triplets
+    for i in range(0,len(ntseq),3): #To read the input sequence correctly it needed to be broken into discrete triplets
         if ntseq[i:i+3] in AA_table:
             translation += AA_table[ntseq[i:i+3]]
     return translation
